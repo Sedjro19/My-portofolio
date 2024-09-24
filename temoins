@@ -1,0 +1,131 @@
+ <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Témoignages</h2>
+        <p>Découvrez ce que nos clients pensent de nos services et comment nous les avons aidés à atteindre leurs objectifs.</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>« Grâce à [votre service], j'ai pu développer mon entreprise et atteindre de nouveaux clients. Une expérience exceptionnelle ! »</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>PDG &amp; Fondateur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>« Une approche personnalisée et un service client exceptionnel. Je recommande vivement ! »</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+    
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>« J'ai vu une nette amélioration dans mes ventes après avoir collaboré avec cette équipe. Merci ! »</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Propriétaire de magasin</h4>
+              </div>
+            </div><!-- End testimonial item -->
+    
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+    
+      </div>
+    
+    </section>/Testimonials Section
+
+    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+        <div class="portfolio-content h-100">
+          <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Produit 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur</p>
+            <a href="assets/img/portfolio/product-1.jpg" title="Produit 1"
+              data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+      </div><!-- Fin de l'élément du portfolio -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+        <div class="portfolio-content h-100">
+          <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Branding 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur</p>
+            <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1"
+              data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+      </div><!-- Fin de l'élément du portfolio -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+        <div class="portfolio-content h-100">
+          <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Livres 1</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur</p>
+            <a href="assets/img/portfolio/books-1.jpg" title="Livres 1" data-gallery="portfolio-gallery-book"
+              class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Plus de détails" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+      </div><!-- Fin de l'élément du portfolio -->
+
+      <!-- Ajoutez d'autres éléments de portfolio ici selon vos besoins -->
